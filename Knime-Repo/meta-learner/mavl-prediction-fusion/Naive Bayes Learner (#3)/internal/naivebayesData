@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+    <entry key="ClassColumnName" type="xstring" value="Species_name"/>
+    <config key="ClassColumnType">
+        <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        <entry key="is_null" type="xboolean" value="false"/>
+    </config>
+    <entry key="skipMissingVals" type="xboolean" value="false"/>
+    <entry key="Threshold" type="xdouble" value="1.0E-4"/>
+    <config key="SkippedAttributes">
+        <entry key="SkippedAttributesCounter" type="xint" value="0"/>
+    </config>
+    <config key="AttributeModelSection">
+        <entry key="AttributeModelCounter" type="xint" value="5"/>
+        <config key="AttributeModelData_0">
+            <entry key="attributeName" type="xstring" value="Petal_width"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="3"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value=" Versicolor"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="1.3375000000000001"/>
+                    <entry key="sd" type="xdouble" value="0.19701295024465412"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value=" Setosa"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="0.2475"/>
+                    <entry key="sd" type="xdouble" value="0.10124228365658294"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value=" Verginica"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="2.0624999999999996"/>
+                    <entry key="sd" type="xdouble" value="0.28165035607455396"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_1">
+            <entry key="attributeName" type="xstring" value="Petal_length"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="3"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value=" Versicolor"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="4.272499999999998"/>
+                    <entry key="sd" type="xdouble" value="0.4867408619241522"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value=" Setosa"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="1.4575"/>
+                    <entry key="sd" type="xdouble" value="0.14121723581881815"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value=" Verginica"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="5.57"/>
+                    <entry key="sd" type="xdouble" value="0.5707395112865324"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_2">
+            <entry key="attributeName" type="xstring" value="Sepal_width"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="3"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value=" Versicolor"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="2.767499999999999"/>
+                    <entry key="sd" type="xdouble" value="0.32056640577705664"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value=" Setosa"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="3.442500000000001"/>
+                    <entry key="sd" type="xdouble" value="0.3928120187205097"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value=" Verginica"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="2.9825"/>
+                    <entry key="sd" type="xdouble" value="0.3514712666521279"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_3">
+            <entry key="attributeName" type="xstring" value="Sepal_length"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="3"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value=" Versicolor"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="5.952500000000001"/>
+                    <entry key="sd" type="xdouble" value="0.5325254297527332"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value=" Setosa"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="5.027500000000001"/>
+                    <entry key="sd" type="xdouble" value="0.3358781067055469"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value=" Verginica"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="40"/>
+                    <entry key="mean" type="xdouble" value="6.585000000000002"/>
+                    <entry key="sd" type="xdouble" value="0.6596619180715575"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_4">
+            <entry key="attributeName" type="xstring" value="Species_name"/>
+            <entry key="type" type="xstring" value="ClassModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="totalNoOfRecords" type="xlong" value="120"/>
+                <entry key="maxNoOfClassValues" type="xlong" value="20"/>
+                <config key="classValues">
+                    <entry key="array-size" type="xint" value="3"/>
+                    <entry key="0" type="xstring" value=" Setosa"/>
+                    <entry key="1" type="xstring" value=" Versicolor"/>
+                    <entry key="2" type="xstring" value=" Verginica"/>
+                </config>
+                <config key="classRecordCounter">
+                    <entry key="array-size" type="xint" value="3"/>
+                    <entry key="0" type="xlong" value="40"/>
+                    <entry key="1" type="xlong" value="40"/>
+                    <entry key="2" type="xlong" value="40"/>
+                </config>
+            </config>
+        </config>
+    </config>
+</config>
