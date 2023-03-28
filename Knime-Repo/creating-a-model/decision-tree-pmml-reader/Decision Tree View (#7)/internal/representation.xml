@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
+    <entry key="enableViewConfiguration" type="xboolean" value="true"/>
+    <entry key="enableTitleChange" type="xboolean" value="true"/>
+    <entry key="enableSubtitleChange" type="xboolean" value="true"/>
+    <entry key="enableSelection" type="xboolean" value="false"/>
+    <entry key="backgroundColor" type="xstring" value="#FFFFFF"/>
+    <entry key="dataAreaColor" type="xstring" value="#FFFFFF"/>
+    <entry key="displayFullscreenButton" type="xboolean" value="true"/>
+    <entry key="TableId" type="xstring" isnull="true" value=""/>
+    <entry key="decimals" type="xstring" value="2"/>
+    <entry key="mark" type="xstring" value="."/>
+    <entry key="thousand" type="xstring" isnull="true" value=""/>
+    <entry key="prefix" type="xstring" isnull="true" value=""/>
+    <entry key="postfix" type="xstring" isnull="true" value=""/>
+    <entry key="negative" type="xstring" value="-"/>
+    <entry key="negativeBefore" type="xstring" isnull="true" value=""/>
+    <entry key="negativeClasses" type="xstring" isnull="true" value=""/>
+    <entry key="encoder" type="xstring" isnull="true" value=""/>
+    <entry key="decoder" type="xstring" isnull="true" value=""/>
+    <entry key="edit" type="xstring" isnull="true" value=""/>
+    <entry key="undo" type="xstring" isnull="true" value=""/>
+    <entry key="enableZooming" type="xboolean" value="true"/>
+    <entry key="nodeBackgroundColor" type="xstring" value="#FFFFFF"/>
+    <entry key="displaySelectionResetButton" type="xboolean" value="true"/>
+    <entry key="truncationLimit" type="xint" value="25"/>
+</config>

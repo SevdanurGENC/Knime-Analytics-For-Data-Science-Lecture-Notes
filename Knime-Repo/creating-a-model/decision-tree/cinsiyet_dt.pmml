@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2">
+  <Header copyright="Nano">
+    <Application name="KNIME" version="4.7.1"/>
+  </Header>
+  <DataDictionary numberOfFields="3">
+    <DataField name="BOY" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="168.0" rightMargin="185.0"/>
+    </DataField>
+    <DataField name="KİLO" optype="continuous" dataType="integer">
+      <Interval closure="closedClosed" leftMargin="58.0" rightMargin="95.0"/>
+    </DataField>
+    <DataField name="CİNSİYET" optype="categorical" dataType="string">
+      <Value value="Erkek"/>
+      <Value value="Kadın"/>
+    </DataField>
+  </DataDictionary>
+  <TreeModel modelName="DecisionTree" functionName="classification" splitCharacteristic="binarySplit" missingValueStrategy="lastPrediction" noTrueChildStrategy="returnNullPrediction">
+    <MiningSchema>
+      <MiningField name="BOY" invalidValueTreatment="asIs"/>
+      <MiningField name="KİLO" invalidValueTreatment="asIs"/>
+      <MiningField name="CİNSİYET" invalidValueTreatment="asIs" usageType="target"/>
+    </MiningSchema>
+    <Node id="0" score="Erkek" recordCount="7.0">
+      <True/>
+      <ScoreDistribution value="Kadın" recordCount="3.0"/>
+      <ScoreDistribution value="Erkek" recordCount="4.0"/>
+      <Node id="1" score="Kadın" recordCount="2.0">
+        <SimplePredicate field="KİLO" operator="lessOrEqual" value="65.0"/>
+        <ScoreDistribution value="Kadın" recordCount="2.0"/>
+        <ScoreDistribution value="Erkek" recordCount="0.0"/>
+      </Node>
+      <Node id="2" score="Erkek" recordCount="5.0">
+        <SimplePredicate field="KİLO" operator="greaterThan" value="65.0"/>
+        <ScoreDistribution value="Kadın" recordCount="1.0"/>
+        <ScoreDistribution value="Erkek" recordCount="4.0"/>
+      </Node>
+    </Node>
+  </TreeModel>
+</PMML>
