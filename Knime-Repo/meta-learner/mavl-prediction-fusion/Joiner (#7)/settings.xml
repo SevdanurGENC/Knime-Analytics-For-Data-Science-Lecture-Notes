@@ -27,7 +27,7 @@
         </config>
         <config key="leftTableJoinPredicate">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="Prediction (Species_name)"/>
+            <entry key="0" type="xstring" value="Species_name"/>
         </config>
         <config key="rightTableJoinPredicate_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
@@ -35,7 +35,7 @@
         </config>
         <config key="rightTableJoinPredicate">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="Species_name"/>
+            <entry key="0" type="xstring" value="Prediction (Species_name)"/>
         </config>
         <config key="compositionMode_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -165,10 +165,10 @@
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
-    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.1.v202301311311"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Joiner"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -202,6 +202,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b55681c5-86a3-4651-9499-302aa59385da"/>
+        <entry key="file_store_id" type="xstring" value="c2f89e76-85fd-4ff6-8f81-07d693107a7a"/>
     </config>
 </config>

@@ -24,22 +24,22 @@
                     <entry key="classValue" type="xstring" value=" Versicolor"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="1.3375000000000001"/>
-                    <entry key="sd" type="xdouble" value="0.19701295024465412"/>
+                    <entry key="mean" type="xdouble" value="1.3150000000000002"/>
+                    <entry key="sd" type="xdouble" value="0.20197740416905993"/>
                 </config>
                 <config key="classValueData_1">
                     <entry key="classValue" type="xstring" value=" Setosa"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="0.2475"/>
-                    <entry key="sd" type="xdouble" value="0.10124228365658294"/>
+                    <entry key="mean" type="xdouble" value="0.2525"/>
+                    <entry key="sd" type="xdouble" value="0.10618682133692967"/>
                 </config>
                 <config key="classValueData_2">
                     <entry key="classValue" type="xstring" value=" Verginica"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="2.0624999999999996"/>
-                    <entry key="sd" type="xdouble" value="0.28165035607455396"/>
+                    <entry key="mean" type="xdouble" value="2.0324999999999998"/>
+                    <entry key="sd" type="xdouble" value="0.2767832624256285"/>
                 </config>
             </config>
         </config>
@@ -55,22 +55,22 @@
                     <entry key="classValue" type="xstring" value=" Versicolor"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="4.272499999999998"/>
-                    <entry key="sd" type="xdouble" value="0.4867408619241522"/>
+                    <entry key="mean" type="xdouble" value="4.227499999999998"/>
+                    <entry key="sd" type="xdouble" value="0.4997371103762251"/>
                 </config>
                 <config key="classValueData_1">
                     <entry key="classValue" type="xstring" value=" Setosa"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="1.4575"/>
-                    <entry key="sd" type="xdouble" value="0.14121723581881815"/>
+                    <entry key="mean" type="xdouble" value="1.4774999999999998"/>
+                    <entry key="sd" type="xdouble" value="0.17757266479402534"/>
                 </config>
                 <config key="classValueData_2">
                     <entry key="classValue" type="xstring" value=" Verginica"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="5.57"/>
-                    <entry key="sd" type="xdouble" value="0.5707395112865324"/>
+                    <entry key="mean" type="xdouble" value="5.574999999999999"/>
+                    <entry key="sd" type="xdouble" value="0.529513564873097"/>
                 </config>
             </config>
         </config>
@@ -86,22 +86,22 @@
                     <entry key="classValue" type="xstring" value=" Versicolor"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="2.767499999999999"/>
-                    <entry key="sd" type="xdouble" value="0.32056640577705664"/>
+                    <entry key="mean" type="xdouble" value="2.7475"/>
+                    <entry key="sd" type="xdouble" value="0.3297143285657123"/>
                 </config>
                 <config key="classValueData_1">
                     <entry key="classValue" type="xstring" value=" Setosa"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="3.442500000000001"/>
-                    <entry key="sd" type="xdouble" value="0.3928120187205097"/>
+                    <entry key="mean" type="xdouble" value="3.4549999999999996"/>
+                    <entry key="sd" type="xdouble" value="0.4012480529547776"/>
                 </config>
                 <config key="classValueData_2">
                     <entry key="classValue" type="xstring" value=" Verginica"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="2.9825"/>
-                    <entry key="sd" type="xdouble" value="0.3514712666521279"/>
+                    <entry key="mean" type="xdouble" value="2.985"/>
+                    <entry key="sd" type="xdouble" value="0.29137164566483803"/>
                 </config>
             </config>
         </config>
@@ -117,22 +117,22 @@
                     <entry key="classValue" type="xstring" value=" Versicolor"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="5.952500000000001"/>
-                    <entry key="sd" type="xdouble" value="0.5325254297527332"/>
+                    <entry key="mean" type="xdouble" value="5.919999999999999"/>
+                    <entry key="sd" type="xdouble" value="0.5079874821797107"/>
                 </config>
                 <config key="classValueData_1">
                     <entry key="classValue" type="xstring" value=" Setosa"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="5.027500000000001"/>
-                    <entry key="sd" type="xdouble" value="0.3358781067055469"/>
+                    <entry key="mean" type="xdouble" value="5.042500000000001"/>
+                    <entry key="sd" type="xdouble" value="0.35582154847475783"/>
                 </config>
                 <config key="classValueData_2">
                     <entry key="classValue" type="xstring" value=" Verginica"/>
                     <entry key="MissingValCounter" type="xlong" value="0"/>
                     <entry key="noOfRows" type="xlong" value="40"/>
-                    <entry key="mean" type="xdouble" value="6.585000000000002"/>
-                    <entry key="sd" type="xdouble" value="0.6596619180715575"/>
+                    <entry key="mean" type="xdouble" value="6.605"/>
+                    <entry key="sd" type="xdouble" value="0.6025373698379896"/>
                 </config>
             </config>
         </config>
