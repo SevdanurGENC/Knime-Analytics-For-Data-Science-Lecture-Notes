@@ -26,14 +26,16 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <config key="leftTableJoinPredicate">
-            <entry key="array-size" type="xint" value="0"/>
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="$RowID$"/>
         </config>
         <config key="rightTableJoinPredicate_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <config key="rightTableJoinPredicate">
-            <entry key="array-size" type="xint" value="0"/>
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="$RowID$"/>
         </config>
         <config key="compositionMode_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -93,7 +95,21 @@
         <config key="leftColumnSelectionConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="14"/>
+                <entry key="0" type="xstring" value="Loan_ID"/>
+                <entry key="1" type="xstring" value="loan_status"/>
+                <entry key="2" type="xstring" value="Principal"/>
+                <entry key="3" type="xstring" value="terms"/>
+                <entry key="4" type="xstring" value="effective_date"/>
+                <entry key="5" type="xstring" value="due_date"/>
+                <entry key="6" type="xstring" value="paid_off_time"/>
+                <entry key="7" type="xstring" value="past_due_days"/>
+                <entry key="8" type="xstring" value="age"/>
+                <entry key="9" type="xstring" value="education"/>
+                <entry key="10" type="xstring" value="Gender"/>
+                <entry key="11" type="xstring" value="paid_off_time_Arr[0]"/>
+                <entry key="12" type="xstring" value="paid_off_time_Arr[1]"/>
+                <entry key="13" type="xstring" value="date&amp;time diff"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -106,13 +122,27 @@
                 <entry key="excludeMatching" type="xboolean" value="false"/>
             </config>
             <config key="datatype">
-                <config key="typelist"/>
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.time.localdate.LocalDateValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
             </config>
         </config>
         <config key="rightColumnSelectionConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="6"/>
+                <entry key="0" type="xstring" value="Principal"/>
+                <entry key="1" type="xstring" value="terms"/>
+                <entry key="2" type="xstring" value="age"/>
+                <entry key="3" type="xstring" value="date&amp;time diff"/>
+                <entry key="4" type="xstring" value="norm_odeme"/>
+                <entry key="5" type="xstring" value="Prediction (Principal)"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -125,42 +155,62 @@
                 <entry key="excludeMatching" type="xboolean" value="false"/>
             </config>
             <config key="datatype">
-                <config key="typelist"/>
+                <config key="typelist">
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
             </config>
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.joiner3.Joiner3NodeFactory"/>
     <entry key="node-name" type="xstring" value="Joiner"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
-    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.1.v202301311311"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Joiner"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 400, Cols: 20"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
             <entry key="index" type="xint" value="3"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="167c2ad2-490f-4c8a-b1b6-fcda6986be90"/>
     </config>
 </config>

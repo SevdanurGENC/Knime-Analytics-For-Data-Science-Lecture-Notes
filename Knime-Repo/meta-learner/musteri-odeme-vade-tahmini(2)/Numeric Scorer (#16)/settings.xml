@@ -12,7 +12,7 @@
         </config>
         <config key="reference">
             <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" value=""/>
+            <entry key="columnName" type="xstring" value="norm_odeme"/>
         </config>
         <config key="predicted_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -20,7 +20,7 @@
         </config>
         <config key="predicted">
             <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" value=""/>
+            <entry key="columnName" type="xstring" value="Prediction (Principal)"/>
         </config>
         <config key="override default output name_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
@@ -29,9 +29,9 @@
         <entry key="override default output name" type="xboolean" value="false"/>
         <config key="output column_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="output column" type="xstring" value=""/>
+        <entry key="output column" type="xstring" value="Prediction (Principal)"/>
         <config key="name prefix for flowvars_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -49,29 +49,36 @@
         <entry key="number_of_predictors" type="xint" value="0"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Can't calculate Mean Absolute Percentage error: target value is 0! Row208"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory"/>
     <entry key="node-name" type="xstring" value="Numeric Scorer"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
-    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.1.v202301311311"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Numeric Scorer"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 7, Cols: 1"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="aaffc266-7a0e-45b1-93cd-96f341c299e5"/>
     </config>
 </config>
