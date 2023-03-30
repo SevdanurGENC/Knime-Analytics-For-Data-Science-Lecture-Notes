@@ -6,16 +6,17 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="classcol_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="classcol" type="xstring" value="Species_name"/>
+        <entry key="kernel_type" type="xstring" value="Polynomial"/>
         <config key="c_parameter_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="c_parameter" type="xdouble" value="1.0"/>
+        <config key="classcol_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="classcol" type="xstring" value="Species_name"/>
         <config key="kernel_param_Bias_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -46,7 +47,6 @@
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="kernel_param_sigma" type="xdouble" value="0.1"/>
-        <entry key="kernel_type" type="xstring" value="Polynomial"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -56,10 +56,10 @@
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
-    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.1.v202301311311"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="SVM Learner"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -77,6 +77,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="acd7ace0-067f-433c-9a72-83d2d5d19695"/>
+        <entry key="file_store_id" type="xstring" value="f0a85e9f-f7ff-41a4-ab70-2aff60f2574b"/>
     </config>
 </config>

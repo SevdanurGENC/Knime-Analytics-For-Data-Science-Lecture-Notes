@@ -35,10 +35,10 @@
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
-    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.1.v202301311311"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="SVM Predictor"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -54,6 +54,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="e224d25c-11c0-43ec-86ab-f62c0b6a38e9"/>
+        <entry key="file_store_id" type="xstring" value="c1d646f2-4159-43f0-a81f-8ac8767c35e0"/>
     </config>
 </config>
