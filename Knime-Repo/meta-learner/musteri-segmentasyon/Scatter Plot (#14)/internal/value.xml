@@ -3,7 +3,7 @@
     <entry key="chartTitle" type="xstring" value=""/>
     <entry key="chartSubtitle" type="xstring" value=""/>
     <entry key="xCol" type="xstring" value="age"/>
-    <entry key="yCol" type="xstring" value="terms"/>
+    <entry key="yCol" type="xstring" value="Principal"/>
     <entry key="xAxisLabel" type="xstring" value=""/>
     <entry key="yAxisLabel" type="xstring" value=""/>
     <entry key="xAxisMin" type="xstring" isnull="true" value=""/>

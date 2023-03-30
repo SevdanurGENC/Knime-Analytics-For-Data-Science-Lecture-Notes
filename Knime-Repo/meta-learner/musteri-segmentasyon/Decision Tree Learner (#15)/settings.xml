@@ -11,11 +11,16 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="classifyColumn" type="xstring" value="Cluster"/>
-        <config key="splitQualityMeasure_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+        <config key="numverRecordsToView_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="splitQualityMeasure" type="xstring" value="Gini index"/>
+        <entry key="numverRecordsToView" type="xint" value="10000"/>
+        <config key="minNumberRecordsPerNode_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="minNumberRecordsPerNode" type="xint" value="2"/>
         <config key="pruningMethod_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -26,16 +31,11 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="enableReducedErrorPruning" type="xboolean" value="true"/>
-        <config key="minNumberRecordsPerNode_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+        <config key="splitQualityMeasure_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="minNumberRecordsPerNode" type="xint" value="2"/>
-        <config key="numverRecordsToView_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="numverRecordsToView" type="xint" value="10000"/>
+        <entry key="splitQualityMeasure" type="xstring" value="Gini index"/>
         <config key="splitAverage_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -46,36 +46,26 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="numProcessors" type="xint" value="12"/>
-        <config key="skipColumnsWithoutDomain_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="skipColumnsWithoutDomain" type="xboolean" value="true"/>
-        <config key="useFirstSplitColumn_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="useFirstSplitColumn" type="xboolean" value="false"/>
-        <config key="firstSplitColumn_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="firstSplitColumn" type="xstring" value="Gender"/>
-        <config key="binaryNominalSplit_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="binaryNominalSplit" type="xboolean" value="false"/>
         <config key="maxNumNominalValues_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="maxNumNominalValues" type="xint" value="10"/>
+        <config key="binaryNominalSplit_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="binaryNominalSplit" type="xboolean" value="false"/>
         <config key="FilterNominalValuesFromParent_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="FilterNominalValuesFromParent" type="xboolean" value="false"/>
+        <config key="skipColumnsWithoutDomain_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="skipColumnsWithoutDomain" type="xboolean" value="true"/>
         <config key="CFG_NOTRUECHILD_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -86,6 +76,16 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="CFG_MISSINGSTRATEGY" type="xstring" value="lastPrediction"/>
+        <config key="useFirstSplitColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="useFirstSplitColumn" type="xboolean" value="false"/>
+        <config key="firstSplitColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="firstSplitColumn" type="xstring" value="Gender"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -95,10 +95,10 @@
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
-    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.1.v202301311311"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Decision Tree Learner"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -116,6 +116,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9872e28c-a274-4fe5-ac4b-b37a86489daf"/>
+        <entry key="file_store_id" type="xstring" value="66b577e9-3db3-446d-8ca7-ec3028ebc9b3"/>
     </config>
 </config>

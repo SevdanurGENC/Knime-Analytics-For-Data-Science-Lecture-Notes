@@ -6,9 +6,9 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="selected_column" type="xstring" value="Cluster"/>
         <entry key="is_nominal" type="xboolean" value="true"/>
-        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="cluster_0" type="xint" value="-13393876"/>
         <entry key="cluster_1" type="xint" value="-1893860"/>
         <entry key="cluster_2" type="xint" value="-9814630"/>
@@ -42,10 +42,10 @@
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-bundle-version" type="xstring" value="4.7.0.v202301251625"/>
-    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
-    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.1.v202301311311"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Color Manager"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -70,6 +70,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f4863bf1-490b-4ff2-95e1-7ee19ea52347"/>
+        <entry key="file_store_id" type="xstring" value="427f6caf-7ed0-4d73-9e2e-08c806b19090"/>
     </config>
 </config>

@@ -54,7 +54,7 @@
             <entry key="array-size" type="xint" value="0"/>
         </config>
         <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
         </config>
         <config key="column_domain">
             <config key="lower_bound">
@@ -79,7 +79,7 @@
             <entry key="array-size" type="xint" value="0"/>
         </config>
         <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
         </config>
         <config key="column_domain">
             <config key="lower_bound">
@@ -328,7 +328,7 @@
             <entry key="array-size" type="xint" value="0"/>
         </config>
         <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
         </config>
         <config key="column_domain">
             <config key="lower_bound">
@@ -353,7 +353,7 @@
             <entry key="array-size" type="xint" value="0"/>
         </config>
         <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
         </config>
         <config key="column_domain">
             <config key="lower_bound">
