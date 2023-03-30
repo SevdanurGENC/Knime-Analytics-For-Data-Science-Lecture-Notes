@@ -156,7 +156,7 @@
                 <path d="M878 356 L936 356 L936 367 L878 367 L878 356 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath48">
-                <path d="M-1 -1 L1171 -1 L1171 667 L-1 667 L-1 -1 Z"/>
+                <path d="M-1 -1 L1324 -1 L1324 736 L-1 736 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g stroke-miterlimit="0" stroke-width="0" font-size="16px"
@@ -976,32 +976,35 @@ rkJggg==" xlink:actuate="onLoad"/>
            stroke-width="2" font-family="&apos;Segoe UI&apos;"
            stroke-linecap="butt" stroke="rgb(150,150,150)">
             <path fill="none"
-                  d="M375 71 C377 71 381 71 383 71 C407 71 432 111 456 111 C458 111 462 111 464 111"
+                  d="M515 121 C517 121 521 121 523 121 C544 121 575 121 596 121 C598 121 602 121 604 121"
                   fill-rule="evenodd" clip-path="url(#clipPath48)"/>
             <path fill="none"
-                  d="M515 121 C517 121 521 121 523 121 C544 121 575 121 596 121 C598 121 602 121 604 121"
+                  d="M235 171 C237 171 241 171 243 171 C312 171 387 261 456 261 C458 261 462 261 464 261"
+                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M515 271 C517 271 521 271 523 271 C569 271 610 351 656 351 C658 351 662 351 664 351"
+                  stroke-width="3" clip-path="url(#clipPath48)"
+                  fill-rule="evenodd" stroke="rgb(75,75,75)"/>
+            <path fill="none"
+                  d="M95 181 C97 181 101 181 103 181 C124 181 155 181 176 181 C178 181 182 181 184 181"
                   clip-path="url(#clipPath48)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M235 190 C237 190 241 190 243 190 C309 190 390 130 456 130 C458 130 462 130 464 130"
                   clip-path="url(#clipPath48)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M235 190 C237 190 241 190 243 190 C378 190 521 370 656 370 C658 370 662 370 664 370"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
-            <path fill="none"
                   d="M235 171 C237 171 241 171 243 171 C282 171 277 61 316 61 C318 61 322 61 324 61"
                   clip-path="url(#clipPath48)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M95 181 C97 181 101 181 103 181 C124 181 155 181 176 181 C178 181 182 181 184 181"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
+                  d="M235 190 C237 190 241 190 243 190 C378 190 521 370 656 370 C658 370 662 370 664 370"
+                  stroke-width="3" clip-path="url(#clipPath48)"
+                  fill-rule="evenodd" stroke="rgb(75,75,75)"/>
             <path fill="none"
-                  d="M515 271 C517 271 521 271 523 271 C569 271 610 351 656 351 C658 351 662 351 664 351"
+                  d="M375 71 C377 71 381 71 383 71 C407 71 432 111 456 111 C458 111 462 111 464 111"
                   clip-path="url(#clipPath48)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M715 361 C717 361 721 361 723 361 C756 361 803 361 836 361 C838 361 842 361 844 361"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M235 171 C237 171 241 171 243 171 C312 171 387 261 456 261 C458 261 462 261 464 261"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
+                  stroke-width="3" clip-path="url(#clipPath48)"
+                  fill-rule="evenodd" stroke="rgb(75,75,75)"/>
         </g>
     </g>
 </svg>
